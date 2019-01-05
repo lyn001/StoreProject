@@ -1,0 +1,184 @@
+/* 
+
+	用户登录层叠样式表
+
+ */
+
+
+  body{
+	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif ;
+}
+
+@font-face {
+	font-family:'gw';
+	src:url('../font/MiFie-Web-Font.eot') format('embedded-opentype'),
+		url('../font/MiFie-Web-Font.svg') format('svg'),
+		url('../font/MiFie-Web-Font.ttf') format('truetype'),
+		url('../font/MiFie-Web-Font.woff') format('woff');
+}
+
+[class^='icon-'],
+[class*=' icon-']{
+	font-family: gw;
+	font-style: normal;
+}
+
+
+/*
+
+	 字体图标
+
+*/
+
+.glyphicon-user:before {
+    content: "\e008";
+}
+
+.glyphicon-lock:before {
+    content: "\e033";
+}
+
+/*
+	
+	顶部通栏
+
+*/
+
+#header{
+	background-color: #ff0000;
+}
+
+#header > .topbar {
+  height: 90px;
+  background-color: #c0c0c0;
+  /*border-bottom: 1px solid #c0c0c0;
+  line-height: 40px;*/
+}
+
+#header > .topbar > .container > .row > .col-md-4{
+	height: 90px;
+	background-color: #00ff00;
+}
+
+#header > .topbar > .container > .row > .col-md-8{
+	height: 90px;
+	background-color: #0000ff;
+}
+
+
+
+/*
+
+	背景图以及登录框
+
+*/
+
+
+#login_center > .img {
+	width: 100%;
+	height:650px;
+	background-image: url(../img/login_backgound.jpg);
+}
+
+#login_center > .img > form > #login_case{
+    margin-right: 6%;
+    margin-top: 5%;
+    width: 24%;
+    height: 348px;
+    background-color: #fff;
+}
+
+#login_center > .img > form > #login_case > #wenzi{
+	width: 100%;
+	height: 70px;
+	margin-left: 30px;
+}
+
+#login_center > .img > form > #login_case > #wenzi > span{
+	color: #000;
+	font-size: 20px;
+	line-height: 70px;
+}
+
+#login_center > .img > form > #login_case > .input-group{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 6px;
+}
+
+.btn {
+	width: 82%;
+	margin-left: 9%;
+}
+
+
+.btn-default {
+   color: #fff;
+   background-color: #337ab7;
+   border-color: #337ab7;
+}
+
+.btn-default:hover {
+    color: #ffffff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    height: 35px;
+ }
+
+ .row {
+ 	width: 89%;
+    margin-left: 17%;
+    background-color: #f0f0;
+}
+
+#login_center > .img > form > #login_case > .forget{
+	float: left;
+	width: 82%;
+	margin-left:9%;
+	margin-top: 5%;
+}
+
+#login_center > .img > form > #login_case > .forget > .row > div{
+	font-size: 12px;
+	text-align: right;
+	color: #c0c0c0;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0px;
+    font: inherit;
+    color: #555;
+}
+
+a {
+    color: #9d9d9d;
+    text-decoration: none;
+}
+
+a:hover, 
+a:focus {
+    color: #9d9d9d;
+    text-decoration: none;
+}
+
+/*
+
+	页脚
+
+*/
+#foot{
+	height: 120px;
+	background-color: #000;
+}
+
+#foot > p {
+	color: #fff;
+	line-height:  120px;
+	text-align: center;
+	font-size: 25px;
+}
+

@@ -1,0 +1,104 @@
+/*
+* @Author: hys
+* @Date:   2018-01-24 14:33:27
+* @Last Modified by:   hys
+* @Last Modified time: 2018-01-25 10:48:07
+*/
+.section{
+	width: 100%;
+	height: 620px;
+}
+
+.indent{
+	width: 75%;
+	height: 630px;
+	 margin:0 auto; 
+	background-color: #f5f5f54a;
+}
+
+.indent > .infomation01{
+	width: 100%;
+	height: 15%;
+}
+
+.indent > .infomation01 > .info-ul01{
+	list-style:none;
+	padding:0; 
+	margin:0;
+}
+.indent > .infomation01 > .info-ul01 >li{
+	float:left;
+}
+
+.indent > .infomation01 > .info-ul01 >li >a{
+	margin-top: 50px;
+	display:block; /* 将链接设为块级元素 */
+	width:266px; /* 设置宽度 */
+	height:40px; /* 设置高度 */
+	line-height:40px; /* 设置行高，将行高和高度设置同一个值，可以让单行文本垂直居中 */
+	text-align:center; /* 居中对齐文字 */
+	background:#3A4953; /* 设置背景色 */
+	color:#fff; /* 设置文字颜色 */
+	text-decoration:none; /* 去掉下划线 */
+	border-right:1px solid #000; /* 在左侧加上分隔线 */
+}
+.indent > .infomation02{
+	width: 100%;
+	height: 20%;
+	border-bottom:1px solid #000;
+}
+.indent > .infomation02 > .info-ul02{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.indent > .infomation02 > .info-ul02 > li{
+	float: left;
+}
+.indent > .infomation02 > .info-ul02 > li > a{
+	margin-top: 30px;
+	display: block;
+	width: 266px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+}
+
+
+.indent > .infomation03{
+	width: 100%;
+	height: 20%;	
+	background-color: #f0f;
+}
+.indent > .infomation04{
+	width: 100%;
+	height: 20%;
+}
+.indent > .infomation04 > .address{
+	width: 50%;
+	height: 100%;
+	float:right;
+	border: 1px solid red;
+	padding-top: 10px;
+}
+.indent > .infomation04 > .address > .span{
+	float:right;
+	font-weight: normal;
+	font-weight: bold;
+	font-weight: 900;
+
+}
+.indent > .infomation05{
+	width: 100%;
+	height: 20%;
+}
+
+.indent > .infomation05 > .btn{
+	float: right;
+	width: 20%;
+	height: 30%;
+	background-color: red;
+	color: #fff;
+}

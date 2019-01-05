@@ -1,0 +1,30 @@
+/*
+* @Author: hys
+* @Date:   2018-03-23 04:37:22
+* @Last Modified by:   hys
+* @Last Modified time: 2018-03-23 04:50:26
+*/
+
+.error{
+	height: 100%;
+	width: 100%;
+}
+
+.error > .zi{
+	height: 100%;
+	width: 100%;
+	text-align:center;
+	padding-top: 100px;
+}
+
+.error > .xiao{
+	height: 100%;
+	width: 100%;
+	text-align:center;
+	padding-top: 100px;
+}
+
+.error > .xiao > p{
+	font-size: 20px;
+	color: red;
+}

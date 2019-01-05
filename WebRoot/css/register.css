@@ -1,0 +1,168 @@
+/*
+
+	注册层叠样式表
+
+*/
+
+
+/*
+
+	字体图标
+
+*/
+.glyphicon-phone:before {
+    content: "\e145";
+}
+
+.glyphicon-lock:before {
+    content: "\e033";
+}
+
+.glyphicon-check:before {
+    content: "\e067";
+    font-size: 100px;
+    color: #18ad0f;
+}
+/* 
+
+	logo以及小标题
+
+ */
+
+ #logoAndTitle{
+ 	margin-top: 3%;
+ }
+
+ #logoAndTitle > .container > .row > .col-md-3 > div{
+ 	width: 100%;
+ 	height: 100px;
+ }
+
+ #logoAndTitle > .container > .row > .col-md-9 > span{
+ 	font-size: 23px;
+ 	color: #444;
+ 	line-height: 100px;
+ }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 0px solid #ddd; 
+    border-bottom-color: #dddddd;
+    font-size: 22px;
+    margin-bottom: 1%;
+}
+
+
+ /*
+
+	注册流程
+
+ */
+
+ #register{
+ 	margin-top: 3%;
+ }
+
+a{
+    color: #999;
+    text-decoration: none;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    padding-left: 32%;
+}
+
+
+.input-group .form-control{
+	width: 30%;
+}
+
+.form-control{
+	border-radius: 5px;
+	height: 37px;
+}
+
+.input-group{
+	margin-left: 38%;
+	margin-top: 2%;
+}
+
+.btn-lg, .btn-group-lg > .btn{
+	font-size: 12px;
+	margin-left: 2%;
+}
+
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary{
+	background-color: #337ab7;
+	border-color: #337ab7
+}
+
+.btn{
+	border: 0px solid transparent;
+}
+
+
+
+.btn-default-update {
+    color: #fff;
+    background-color: #337ab7;
+}
+
+
+.btn-update{
+	width: 18%;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.form-control-update {
+    display: block;
+    width: 36%;
+    height: 40px;
+    padding: 0px 16px;
+    font-size: 15px;
+    line-height: 46px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #666;
+    /* padding-top: 0px; */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-group {
+    margin-bottom: 1%;
+    margin-left: 42%;
+    margin-top: 1%;
+}
+
+
+#foot{
+	height: 170px;
+	background-color: #999;
+}
